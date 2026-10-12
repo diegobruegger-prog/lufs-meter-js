@@ -1,0 +1,13 @@
+{
+  "name": "lufs-meter-js",
+  "version": "1.0.0",
+  "description": "Integrated loudness (LUFS) per ITU-R BS.1770-4 / EBU R128 in plain JavaScript. Works in the browser and Node. Matches ffmpeg ebur128 within 0.1 LU.",
+  "type": "module",
+  "main": "lufs.js",
+  "exports": "./lufs.js",
+  "scripts": { "test": "node test.mjs" },
+  "keywords": ["lufs", "loudness", "ebu-r128", "bs1770", "audio", "true-peak", "web-audio", "mastering", "podcast"],
+  "homepage": "https://shortformkit.com/lufs-meter/",
+  "license": "MIT",
+  "author": "Diego Brügger (https://shortformkit.com/about/)"
+}
